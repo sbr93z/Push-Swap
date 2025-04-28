@@ -25,7 +25,7 @@ git clone https://github.com/sbr93z/push_swap.git
 cd push_swap
 make
 ```
-Utilisation
+## Utilisation
 
 Lancer le programme avec un ensemble de nombres :
 ```bash
@@ -33,7 +33,7 @@ Lancer le programme avec un ensemble de nombres :
 ```
 Le programme va trier ces nombres avec un minimum d'opérations et afficher la séquence d'instructions nécessaires.
 
-Fichiers
+## Fichiers
 
 libft/ : Ma bibliothèque personnelle, inclut les fonctions utiles comme `ft_printf`, `get_next_line`, etc.
 
@@ -45,7 +45,7 @@ utils/ : Contient le code principal du projet.
 - `utils.c`, `utils_2.c`, `utils_3.c` : Fonctions utilitaires pour la gestion des piles et des opérations.
 
 Makefile : Fichier pour compiler et nettoyer le projet.
-Commandes Makefile
+## Commandes Makefile
 ```bash
 make : Compile les programmes.
 
@@ -55,7 +55,7 @@ make fclean : Supprime les fichiers objets et les exécutables.
 
 make re : fclean puis make.
 ```
-Fonctionnement
+## Fonctionnement
 
 Le programme prend en entrée une liste de nombres et les trie en utilisant un algorithme de tri optimal avec des opérations de piles. Chaque opération effectuée est affichée à l'écran, et le but est de réduire au minimum le nombre d'opérations pour trier la pile.
 
