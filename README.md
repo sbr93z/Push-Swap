@@ -21,7 +21,7 @@ Push-Swap est un projet du cursus 42 qui consiste à trier une pile d'entiers en
 ## Installation
 
 ```bash
-git clone https://github.com/sbr93z/push_swap.git
+git clone git@github.com:sferrad/Push-Swap.git
 cd push_swap
 make
 ```
